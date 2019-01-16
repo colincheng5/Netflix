@@ -8,5 +8,5 @@ First Open a your terminal:
 
 Then Open a new terminal window:
 > node server.js
-then open your browser at this url:  http://localhost:8080/webpack-dev-server/
+then open your browser at this url:  http://localhost:8080
 ```
