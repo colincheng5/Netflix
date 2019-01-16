@@ -1,6 +1,7 @@
 
 ```
 First Open a your terminal:
+> git clone https://github.com/colincheng5/Netflix.git
 > cd Netflix
 > npm install
 > npm start
