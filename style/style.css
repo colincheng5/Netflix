@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    font-size: 1.5em;
+}
+
+.container {
+    padding-left: 2%;
+}
+
+ul {
+    clear: both;
+    display: flex;
+    list-style-type: none;
+}
+
+.item-li {
+    margin: 0.2em;
+}
+.item-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.item-img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.item-img button {
+    visibility: hidden;
+}
+
+.item-img:hover button {
+    visibility: visible;
+    cursor: pointer;
+}
+
+button {
+    background-color: red;
+    border: 0;
+    border-radius: 5px;
+    width: 169px;
+    height: 20%;
+    font-size: 1em;
+    color: white;
+    margin-top: 0.5em;
+}
+
+h5 {
+    color: darkcyan;
+}
+
+.logo {
+    padding: 1em;
+    color: darkred;
+    text-align: left;
+}
+
+.container{
+    margin-top: 20px;
+}
