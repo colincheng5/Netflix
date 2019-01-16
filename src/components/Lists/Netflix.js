@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import logo from '../../assets/netflix-logo.jpg';
 
 export default class Netflix extends Component {
 	constructor(props) {
@@ -97,7 +98,7 @@ export default class Netflix extends Component {
 		return (
 			<div className='container'>
 				<div className="row">
-					<h1 className="logo">NETFLIX</h1>
+					<img src={logo} width="168" height="50" />
 				</div>
 				{this.renderItem(mylist, true, 'My List')}
 				{this.renderItem(recommendations, false, 'Recommendations')}

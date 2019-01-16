@@ -64,3 +64,8 @@ h5 {
 .container{
     margin-top: 20px;
 }
+
+.row {
+    margin-left: 10px !important;
+    margin-bottom: 15px !important;
+}
